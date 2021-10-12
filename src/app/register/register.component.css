@@ -1,0 +1,29 @@
+
+
+.card{
+    width: 200%;
+    height: 130%;
+    padding-bottom: 45%;
+}
+.card-content{
+    width: 140%;
+    margin-top: 10%;
+}
+.btn{
+    margin-left: 18%;
+    width: 15%;
+}
+.myTittle{
+    margin-left: 10%;
+    color: darkblue;
+    font-family: fantacy;
+    font-size: 80px;
+}
+.regText{
+    color: darkblue;
+    margin-left: 60%;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+

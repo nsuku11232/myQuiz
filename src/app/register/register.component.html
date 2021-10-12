@@ -1,0 +1,54 @@
+
+<app-navbar></app-navbar>
+<div class="row">
+    <div class="regText">Register first to participate..</div> 
+    <div class="grid-example col s12 m6"><span class="flow-text">
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="../assets/w.png">
+                  <span class="card-title">Card Title</span>
+                </div>
+        
+               <div class="card-content">
+                    <form #registerForm>
+                    </form>
+                   <p></p>
+                 </div>
+              </div>
+            </div>
+          </div>
+    </span></div>
+   <div class="grid-example col s12 m6">
+        <div class="card-content">
+            <form #registerForm>
+             <div class="row">           
+                   <div class="input-field col s6 reg">
+                     <i class="material-icons prefix">account_circle</i>
+                     <input type="text" id="icon_prefix" class="validate" name="Name" #Name ngModel>
+                     <label For="icon_prefix">Name</label>
+               </div>
+             </div>
+             <div class="row">           
+                <div class="input-field col s6 reg">
+                  <i class="material-icons prefix">create</i>
+                  <input type="text" id="icon_prefix" class="validate" Username="Username" #Username ngModel>
+                  <label For="icon_prefix">Username</label>
+            </div>
+          </div>
+             <div class="row">           
+                 <div class="input-field col s6">
+                   <i class="material-icons prefix">email</i>
+                   <input type="text" id="email" class="validate" email="Email" #Email ngModel>
+                   <label for="email">e-mail</label>
+             </div>
+           </div>
+           <button class="btn btn-floating pulse waves-light" type="submit" name="action">Submit
+             <i class="material-icons right"></i>
+           </button>
+            </form>
+           <p></p>
+         </div>
+    </div>
+  </div>
